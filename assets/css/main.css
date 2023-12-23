@@ -1,0 +1,379 @@
+    html {
+        font-size: 16px;
+    }
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .mr-6 {
+        margin-right: 5.5rem;
+    }
+    
+    .btn {
+        padding: 0.75rem 1.875rem;
+        border-radius: 0;
+    }
+    
+    .btn-black {
+        color: #efefef;
+        background: #000;
+    }
+    /* .btn-black:hover {
+color: #efefefe5;
+background: rgb(31, 30, 30);
+} */
+    /* ==========HEADER========= */
+    
+    .bg-dark {
+        background: #000!important;
+    }
+    
+    #header-top {
+        padding: 6px 0;
+        border-bottom: 1px solid #363636;
+    }
+    
+    #header-mid {
+        padding: 1.5rem 0;
+    }
+    
+    #header-mid #logo {
+        padding: 0;
+    }
+    
+    #header-mid #main-menu .nav-link {
+        padding: 0 1rem;
+        font-weight: 600;
+        color: #fff;
+        line-height: 2rem;
+    }
+    /* #banner-carousel .carousel-caption .buy-now:hover, */
+    
+    .btn-black:hover,
+    .btn-white:hover,
+    #header-mid #main-menu .nav-link:hover,
+    #header-mid .sub-menu .dropdown-item:hover,
+    #header-mid .cart-search a:hover,
+    #content .box .box-body .product-info .product-title:hover,
+    .share-post .post-info .post-title:hover {
+        color: #e2524a;
+    }
+    
+    #header-mid #main-menu .dropdown-hover:hover .sub-menu {
+        display: block;
+    }
+    
+    .sub-menu.dropdown-menu {
+        min-width: 12.5rem;
+    }
+    
+    #header-mid .sub-menu {
+        top: 3.125rem;
+        border: none;
+    }
+    
+    #header-mid .sub-menu .dropdown-item:first-child {
+        position: relative;
+    }
+    
+    #header-mid .sub-menu .dropdown-item:first-child::before {
+        content: "";
+        display: block;
+        height: 2rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    
+    #header-mid .cart-search a {
+        color: #fff;
+    }
+    
+    #header-mid .cart {
+        position: relative;
+    }
+    
+    #header-mid .cart-num {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        background-color: #ff0000;
+    }
+    /* Responsive Menu */
+    
+    #my-navbar .navbar-toggler {
+        font-size: 1rem;
+    }
+    /* ==========BANNER========== */
+    
+    #banner-carousel {
+        width: 100%;
+    }
+    
+    #banner-carousel .carousel-indicators li {
+        width: 42px;
+        height: 5px;
+        background-color: #282828;
+        opacity: 1;
+    }
+    
+    #banner-carousel .carousel-indicators li.active {
+        background-color: #e2524a;
+    }
+    
+    #banner-carousel .carousel-inner .carousel-caption {
+        bottom: 50%;
+        left: 0;
+        transform: translateY(50%);
+        padding: 0px 15rem;
+    }
+    
+    #banner-carousel .carousel-caption strong {
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        color: #000;
+        font-weight: 400;
+    }
+    
+    #banner-carousel .carousel-caption h3 {
+        font-family: "Roboto Condensed";
+        font-size: 50px;
+        color: #e2524a;
+        font-weight: 700;
+    }
+    
+    #banner-carousel .carousel-caption p {
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        color: #343434;
+        font-weight: 400;
+    }
+    
+    #banner-carousel .carousel-caption .buy-now {
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+    /* ================CONTENT============= */
+    
+    #slogan {
+        padding: 80px 0;
+        border-bottom: 1px solid #eeeeee;
+    }
+    
+    #slogan .jumbotron {
+        padding: .875rem 2rem;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+    
+    #slogan .jumbotron a {
+        text-align: center;
+        color: #434141;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    #slogan .jumbotron a i {
+        font-size: 48px;
+        color: #888787;
+    }
+    
+    #slogan .jumbotron:hover a,
+    #slogan .jumbotron:hover a i {
+        color: #e2524a;
+    }
+    /* ----------End Slogan----------- */
+    
+    #content .box {
+        padding: 5rem 0;
+    }
+    
+    #content .box.new-product {
+        padding-bottom: 3.125rem;
+    }
+    
+    #content .box .box-head {
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+    
+    #content .box .box-head h3 {
+        font-size: 1.875rem;
+        font-weight: 700;
+        color: #343434;
+    }
+    
+    #content .box .box-head p {
+        color: #837d7d;
+    }
+    
+    #content .box .box-body .product-item {
+        border: none;
+        border-radius: 0;
+        /* margin-bottom: 1.75rem; */
+    }
+    
+    #content .box .box-body .product-item {
+        border: none;
+        border-radius: 0;
+        /* margin-bottom: 1.75rem; */
+    }
+    
+    #content .box .box-body .product-info {
+        padding: 1rem 0 1.875rem 0;
+        color: #514545;
+    }
+    
+    #content .box .box-body .product-info .rate {
+        font-size: 14px;
+        color: #ffa500;
+    }
+    
+    #content .box .box-body .product-info .vote-num {
+        color: #6c757d;
+    }
+    
+    #content .box .box-body .product-info .product-title {
+        font-weight: 600;
+        color: #514545;
+        line-height: 2rem;
+    }
+    /* -----------End New Product---------- */
+    
+    #category .card-img-overlay {
+        top: auto;
+        left: auto;
+    }
+    
+    #category .card-img-overlay .card-title {
+        font-size: 3rem;
+        color: #343434;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    
+    .btn-more {
+        font-size: 0.875rem;
+    }
+    /* -----------End Category---------- */
+    
+    #best-sale {
+        border-bottom: 1px solid #eeeeee;
+    }
+    
+    .owl-dots {
+        display: none;
+    }
+    
+    .owl-nav {
+        text-align: center;
+        margin-top: 1.25rem;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        background-color: #343434;
+        color: #f1f1f1;
+        width: 1.75rem;
+        height: 1.75rem;
+        margin: 2px;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev:hover,
+    .owl-carousel .owl-nav button.owl-next:hover {
+        background-color: #e2524a;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 22px;
+        line-height: 1.75rem;
+    }
+    
+    .share-post .post-item {
+        border-radius: 0;
+        margin-bottom: 3.125rem;
+    }
+    
+    .share-post .post-info {
+        padding: 1rem 1rem 2.75rem;
+        text-align: center;
+    }
+    
+    .share-post .post-info .post-title {
+        font-weight: 600;
+        color: #514545;
+        line-height: 2rem;
+        font-size: 16px;
+    }
+    
+    .share-post .post-info .post-date {
+        color: #6c757d;
+        margin-bottom: 0;
+    }
+    
+    .share-post .post-info .post-desc {
+        color: #343434;
+        line-height: 1.75rem;
+    }
+    
+    .btn-white {
+        color: #585858;
+        border-color: #eeeeee;
+        background-color: transparent;
+        /* margin-top: 3.125rem; */
+    }
+    /* ==========FOOTER============ */
+    
+    #footer {
+        padding: 5rem 0;
+        color: #fff;
+        line-height: 1.75rem;
+    }
+    
+    #footer a {
+        color: #fff;
+        line-height: 1.75rem;
+    }
+    
+    #footer a:hover {
+        color: rgb(189, 175, 175);
+    }
+    
+    #footer h3 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #e2524a;
+    }
+    /* ==========COPPYRIGHT============ */
+    
+    #coppyright {
+        background-color: #e2524a;
+        color: #dcdcdc;
+        padding: 10px 0;
+        font-weight: 600;
+    }

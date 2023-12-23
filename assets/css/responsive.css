@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 1024px) {
+    /* ==========BANNER========== */
+    #banner-carousel .carousel-inner .carousel-caption {
+        padding: 0 6rem;
+    }
+    #banner-carousel .carousel-caption .buy-now {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #main-menu .nav-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sub-menu {
+        background: #2b2b2b;
+    }
+    .sub-menu .dropdown-item {
+        color: #c3ccce;
+    }
+    .sub-menu .dropdown-item:not(:last-child) {
+        border-bottom: 1px solid #3c3b3b;
+    }
+    .sub-menu .dropdown-item:hover {
+        background: #2b2b2b;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    #main-menu {
+        padding-top: 1rem;
+    }
+    /* ==========BANNER========== */
+    #banner-carousel .carousel-inner .carousel-caption {
+        padding: 0 4rem;
+    }
+    #banner-carousel .carousel-caption strong {
+        font-size: 16px;
+    }
+    #banner-carousel .carousel-caption h3 {
+        font-size: 40px;
+    }
+    #banner-carousel .carousel-caption p {
+        font-size: 15px;
+    }
+    #banner-carousel .carousel-caption .buy-now {
+        font-size: 15px;
+        margin-top: 0;
+    }
+    /* ================CONTENT============= */
+    #slogan {
+        padding: 60px 0;
+    }
+    #slogan .jumbotron a {
+        font-size: 12px;
+    }
+    #slogan .jumbotron a i {
+        font-size: 40px;
+    }
+    /* -----------End Jumbotron--------- */
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+    /* ==========BANNER========== */
+    #banner-carousel .carousel-inner .carousel-caption {
+        padding: 0 0;
+    }
+    #banner-carousel .carousel-caption strong {
+        font-size: 10px;
+    }
+    #banner-carousel .carousel-caption h3 {
+        font-size: 20px;
+    }
+    #banner-carousel .carousel-caption p {
+        font-size: 9px;
+        margin-bottom: 0.5rem;
+    }
+    #banner-carousel .carousel-caption .buy-now {
+        font-size: 10px;
+        /* margin-top: 1rem; */
+    }
+    .btn {
+        padding: 0.3rem 1rem;
+        border-radius: 0;
+    }
+    #banner-carousel .carousel-indicators {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+    #banner-carousel .carousel-indicators li {
+        width: 25px;
+        height: 3px;
+    }
+    /* ================CONTENT============= */
+    #slogan {
+        padding: 25px 0;
+        border-bottom: 1px solid #eeeeee;
+    }
+    #slogan .jumbotron {
+        margin-bottom: 5px;
+    }
+    #slogan .jumbotron a {
+        font-size: 12px;
+    }
+    #slogan .jumbotron a i {
+        font-size: 30px;
+    }
+    /* -----------End Jumbotron--------- */
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    /* ==========BANNER========== */
+    #banner-carousel .carousel-caption strong {
+        font-size: 8px;
+    }
+    #banner-carousel .carousel-caption h3 {
+        font-size: 18px;
+    }
+    #banner-carousel .carousel-caption p {
+        font-size: 8px;
+        margin-bottom: 0.3rem;
+    }
+    #banner-carousel .carousel-caption .buy-now {
+        font-size: 8px;
+        /* margin-top: 1rem; */
+    }
+    .btn {
+        padding: 0.1rem 0.7rem;
+    }
+    #banner-carousel .carousel-indicators li {
+        width: 20px;
+    }
+}
